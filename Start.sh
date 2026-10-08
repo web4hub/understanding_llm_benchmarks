@@ -4,3 +4,4 @@ curl -X GET \
      "https://datasets-server.huggingface.co/splits?dataset=openai%2Fgsm8k"
      curl -X GET \
      "https://huggingface.co/api/datasets/openai/gsm8k/parquet/main/train"
+hf download openai/gsm8k --repo-type=dataset
